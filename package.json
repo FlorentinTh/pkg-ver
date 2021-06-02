@@ -1,0 +1,77 @@
+{
+  "name": "pkg-ver",
+  "version": "1.0.0",
+  "description": "Version executable created with vercel/pkg",
+  "scripts": {
+    "clean": "rimraf build",
+    "copy": "cpy bin package.json README.md LICENSE build --parents",
+    "compile": "babel src --out-dir build/src",
+    "build": "npm-run-all clean copy compile",
+    "lint": "eslint ./src --ext .js,.json",
+    "commit": "git-cz",
+    "release": "standard-version",
+    "git": "git push --follow-tags",
+    "cd:dist": "cd ./build",
+    "npm": "npm publish",
+    "publish": "npm-run-all copy git cd:dist npm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlorentinTh/pkg-ver.git"
+  },
+  "keywords": [
+    "cli",
+    "versioning",
+    "pkg",
+    "node",
+    "executable"
+  ],
+  "author": "FlorentinTh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FlorentinTh/pkg-ver/issues"
+  },
+  "homepage": "https://github.com/FlorentinTh/pkg-ver#readme",
+  "bin": {
+    "pkg-ver": "./bin/pkg-ver"
+  },
+  "files": [
+    "bin/",
+    "src/"
+  ],
+  "pre-commit": [
+    "lint"
+  ],
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/eslint-parser": "^7.14.4",
+    "@babel/plugin-transform-runtime": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "cpy-cli": "^3.1.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^7.27.0",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-json": "^3.0.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "npm-run-all": "^4.1.5",
+    "pre-commit": "^1.2.2",
+    "prettier": "^2.3.0",
+    "rimraf": "^3.0.2",
+    "standard-version": "^9.3.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "yargs": "^17.0.1"
+  }
+}
