@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.1](https://github.com/FlorentinTh/pkg-ver/compare/v1.2.0...v1.2.1) (2021-06-03)
+
+
+### Documentation
+
+* **readme:** update readme ([f0efe68](https://github.com/FlorentinTh/pkg-ver/commit/f0efe68ac408d9fdeebe03b0c1345613900d9aa1))
+
 ## [1.2.0](https://github.com/FlorentinTh/pkg-ver/compare/v1.1.1...v1.2.0) (2021-06-03)
 
 
