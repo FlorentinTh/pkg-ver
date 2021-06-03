@@ -10,7 +10,7 @@ export const Tags = {
 export class OutputHelper {
   static print(tag, message, error = null) {
     if (!Object.prototype.toString.call(message) === '[object String]') {
-      this.printError(`Error message must be a string`);
+      this.printError(Tags.ERROR, `Error message must be a string`);
       process.exit(1);
     }
 
@@ -38,7 +38,7 @@ export class OutputHelper {
     }
 
     console.log(
-      chalk.grey('['),
+      chalk.grey('\n['),
       tag,
       chalk.grey(']'),
       chalk.white(`: ${message}. ${errorMsg}\n`)
