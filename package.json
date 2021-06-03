@@ -1,5 +1,5 @@
 {
-  "name": "pkg-ver",
+  "name": "@florentinth/pkg-ver",
   "version": "1.1.0",
   "description": "Version executable created with vercel/pkg",
   "scripts": {
@@ -56,7 +56,6 @@
     "cpy-cli": "^3.1.1",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^7.27.0",
-    "eslint-config-node": "^4.1.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.23.4",
