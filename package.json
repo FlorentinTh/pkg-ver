@@ -11,9 +11,9 @@
     "commit": "git-cz",
     "release": "standard-version",
     "git": "git push --follow-tags",
-    "cd:dist": "cd ./build",
-    "npm": "npm publish",
-    "publish": "npm-run-all copy git cd:dist npm"
+    "cd:build": "cd ./build",
+    "npm": "npm publish --access public",
+    "publish": "npm-run-all git build cd:build npm"
   },
   "repository": {
     "type": "git",
