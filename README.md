@@ -1,6 +1,6 @@
-# pkg-release-version
+# pkg-ver
 
-Version executable created with [vercel/pkg](https://github.com/vercel/pkg).
+Version executables created with [vercel/pkg](https://github.com/vercel/pkg).
 
 ## Authors
 
