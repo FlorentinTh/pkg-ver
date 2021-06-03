@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/FlorentinTh/pkg-ver/compare/v1.1.0...v1.1.1) (2021-06-03)
+
+
+### Chore
+
+* **project:** update dependencies and prefix project name by owner name ([e176a49](https://github.com/FlorentinTh/pkg-ver/commit/e176a499405ee9b1925027ac1e5a0218707e4c0a))
+
 ## 1.1.0 (2021-06-02)
 
 
