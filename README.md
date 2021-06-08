@@ -1,5 +1,7 @@
 # pkg-ver
 
+[![Snyk](https://github.com/FlorentinTh/pkg-ver/actions/workflows/dependencies.yml/badge.svg)](https://github.com/FlorentinTh/pkg-ver/actions/workflows/dependencies.yml) [![Build](https://github.com/FlorentinTh/pkg-ver/actions/workflows/build.yml/badge.svg)](https://github.com/FlorentinTh/pkg-ver/actions/workflows/build.yml) [![Release](https://img.shields.io/github/release/FlorentinTh/pkg-ver)](https://github.com/FlorentinTh/pkg-ver/releases) [![License](https://img.shields.io/github/license/FlorentinTh/pkg-ver)](https://github.com/FlorentinTh/pkg-ver/blob/master/LICENSE)
+
 Version executables created with [vercel/pkg](https://github.com/vercel/pkg).
 
 ## Authors
