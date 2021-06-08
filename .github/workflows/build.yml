@@ -1,0 +1,41 @@
+name: Build
+
+on:
+  release:
+    types:
+    - created
+
+jobs:
+  build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os:
+          - windows-latest
+          - ubuntu-latest
+          - macos-latest
+        node-version:
+          - 12.x
+        architecture:
+          - x64
+
+    name: Using Node ${{ matrix.node-version }} on ${{ matrix.os }} (${{ matrix.architecture }})
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup node ${{ matrix.node-version }} on ${{ matrix.os }} (${{ matrix.architecture }})
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+          architecture: ${{ matrix.architecture }}
+
+      - name: Update npm to v7.x
+        run: npm i -g npm@latest --registry=https://registry.npmjs.org
+
+      - name: Install project dependencies
+        run: npm ci
+
+      - name: Build project
+        run: npm run build
