@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.4](https://github.com/FlorentinTh/pkg-ver/compare/v1.2.3...v1.2.4) (2021-10-14)
+
+
+### Chore
+
+* **deps:** update dependencies ([e878bde](https://github.com/FlorentinTh/pkg-ver/commit/e878bdea31f8833fb11071c062bfa8cbc7b5dd5d))
+
 ### [1.2.3](https://github.com/FlorentinTh/pkg-ver/compare/v1.2.2...v1.2.3) (2021-10-13)
 
 
