@@ -1,6 +1,6 @@
 {
   "name": "@florentinth/pkg-ver",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "Version executable created with vercel/pkg",
   "scripts": {
     "clean": "rimraf build",
