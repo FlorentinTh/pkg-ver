@@ -15,7 +15,7 @@ jobs:
           - ubuntu-latest
           - macos-latest
         node-version:
-          - 12.x
+          - 14.x
         architecture:
           - x64
 
@@ -31,7 +31,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
           architecture: ${{ matrix.architecture }}
 
-      - name: Update npm to v7.x
+      - name: Update npm
         run: npm i -g npm@latest --registry=https://registry.npmjs.org
 
       - name: Install project dependencies
