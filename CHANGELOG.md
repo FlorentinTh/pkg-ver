@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.7](https://github.com/FlorentinTh/pkg-ver/compare/v1.2.6...v1.2.7) (2022-03-02)
+
+
+### CI
+
+* **gh-actions:** fix not required anymore update of npm in build workflow ([3a51c1e](https://github.com/FlorentinTh/pkg-ver/commit/3a51c1ebe49176b76e7e21b5a1dd3432160cd07c))
+
 ### [1.2.6](https://github.com/FlorentinTh/pkg-ver/compare/v1.2.5...v1.2.6) (2022-03-02)
 
 
