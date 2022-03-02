@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.6](https://github.com/FlorentinTh/pkg-ver/compare/v1.2.5...v1.2.6) (2022-03-02)
+
+
+### Bug Fixes
+
+* **output-helper:** fix type check condition issue ([acd9d75](https://github.com/FlorentinTh/pkg-ver/commit/acd9d7578c84550ad61d147456803f944e898c5e))
+
+
+### CI
+
+* **gh-actions:** ignore checkup for chalk 5.x & now build on node 14.x ([04dc603](https://github.com/FlorentinTh/pkg-ver/commit/04dc603c5a09db7af0bd84cf92969992bdebc4bb))
+* **gh-actions:** update build CI ([a796686](https://github.com/FlorentinTh/pkg-ver/commit/a796686f711357e935539a542546d209b8df8b9c))
+
+
+### Chore
+
+* **deps:** update dependencies ([d4f808c](https://github.com/FlorentinTh/pkg-ver/commit/d4f808c902f73a6e1b318776fb2c4ae1c59d5dc7))
+
 ### [1.2.5](https://github.com/FlorentinTh/pkg-ver/compare/v1.2.4...v1.2.5) (2021-12-03)
 
 
